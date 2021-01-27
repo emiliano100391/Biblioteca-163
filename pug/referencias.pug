@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+html(lang="es")
+    head
+        meta(charset="UTF-8")
+        meta(name="viewport", content="width=device-width, initial-scale=1.0")
+        link(rel="stylesheet", href="css/estilos.css")
+        link(rel="stylesheet", href="css/materialize.min.css" media="screen,projection")
+        link(rel="stylesheet", href="https://fonts.googleapis.com/icon?family=Material+Icons")
+        title Biblioteca Escolar BP 163
+    body
+        include menu.pug
+        h1(href="#!").center.brand-logo.red-text.darken-4-text.z-depth-3.grey.lighten-2 Biblioteca 255
+
+        .container
+            h2.orange-text.darken-3-text.center.titulo-galeria REFERENCIAS
+        
+            ul.tabs.center
+                
+                li.tab.col: a(href="#enero") Enero
+                li.tab.col: a(href="#febrero") Febrero
+                li.tab.col: a(href="#marzo") Marzo
+                li.tab.col: a(href="#abril") Abril
+                li.tab.col: a(href="#mayo") Mayo
+                li.tab.col: a(href="#junio") Junio 
+                li.tab.col: a(href="#julio") Julio
+                li.tab.col: a(href="#agosto") Agosto
+                li.tab.col: a(href="#septiembre") Septiembre
+                li.tab.col: a(href="#octubre") Octubre
+                li.tab.col: a(href="#nobiembre") Noviembre
+                li.tab.col: a(href="#diciembre") Diciembre 
+            <br />        
+        .container
+            include enero.pug
+            include febrero.pug
+            include marzo.pug
+        include footer.pug
+        script document.addEventListener('DOMContentLoaded', function () {M.AutoInit();});
+        script(src="js/javascript.js")
+        script(src="js/materialize.min.js")
