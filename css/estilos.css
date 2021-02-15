@@ -21,6 +21,9 @@
     font-variant: small-caps;
     text-shadow: 2px 2px white;
     margin-top: 0;
+    background-image: url("http://www.valdemoro.es/documents/10180/5657657/bibliotecas-diaG.jpg/04dbc5a4-0e16-4eb3-9fee-3ab7a40abaa2?t=1476865507892");
+    object-fit: cover;
+    padding-bottom: 500px;
 }
 
 .item {
@@ -55,3 +58,6 @@
     font-weight: 400;
 }
 
+.tabla ul li a {
+    padding-bottom: 20px;
+}
